@@ -19,6 +19,7 @@ namespace UnitTestAndDebug
             // Quitar puntos y guiones
             id = id.Replace(".", "");
             id = id.Replace("-", "");
+            
 
             // Validar largo
             if (id.Length == 8 && long.TryParse(id, out tempOut))
